@@ -3,6 +3,9 @@ import { Card } from './components/index'
 import hospImg from "./assets/images/cepillo.jpg";
 import hospImg1 from "./assets/images/peineta.jpg";
 import hospImg2 from "./assets/images/secador.jpg";
+import Button from './components/Button/Button';
+import Banner from './components/Banner/Banner';
+import Navbar from './components/Navbar/Navbar';
 
 import './App.css'
 
@@ -16,7 +19,9 @@ function App() {
   return (
     <>
       <div>
-        
+        <Navbar />
+        <Banner />
+         
       </div>
       <div className="container">
         {hosts.map((host) => (

@@ -1,5 +1,7 @@
 import {ImageStatus} from "../index";
 import "./Card.css";
+import Button from "../Button/Button";
+import "../Button/Button.css";
 
 function Card(props) {
     return (
@@ -14,7 +16,7 @@ function Card(props) {
         <h4>
           {props.price}
         </h4>
-        
+        <Button></Button>
     </div>
     );
 }
