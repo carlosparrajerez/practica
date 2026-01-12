@@ -6,6 +6,8 @@ import hospImg2 from "./assets/images/secador.jpg";
 import Button from './components/Button/Button';
 import Banner from './components/Banner/Banner';
 import Navbar from './components/Navbar/Navbar';
+import Footer from './components/Footer/Footer';
+import Search from './components/Search/Search';
 
 import './App.css'
 
@@ -21,7 +23,7 @@ function App() {
       <div>
         <Navbar />
         <Banner />
-         
+        <Search/>
       </div>
       <div className="container">
         {hosts.map((host) => (
@@ -29,7 +31,7 @@ function App() {
         ))}
         </div>
       <div>
-      
+        <Footer/>
       </div>
       
     </>

@@ -1,0 +1,56 @@
+.footer {
+  background-color: black; /* Fondo oscuro */
+  color: white; /* Texto blanco */
+  padding: 10px 20px; /* Espacio arriba/abajo y lados */
+  font-family: sans-serif;
+}
+
+.footer-container {
+  display: flex; /* Organiza en fila */
+  justify-content: center; /* Espacio entre secciones */
+  flex-wrap: wrap; /* Permite que se acomode en móviles */
+  max-width: 1200px;
+  margin: 0 auto; /* Centra el contenedor */
+}
+
+.footer-section {
+  flex: 1; /* Las secciones ocupan espacio igual */
+  margin-bottom: 20px; /* Espacio entre secciones al hacer wrap */
+  min-width: 200px; /* Mínimo ancho para que no se compriman */
+}
+
+.footer-section h3 {
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.footer-section.copyright {
+  text-align: center; /* Centra el texto de copyright */
+  width: 100%; /* Ocupa todo el ancho en el wrap */
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column; /* Apila las secciones verticalmente */
+    align-items: center; /* Centra las secciones */
+  }
+  .footer-section {
+    text-align: center;
+  }
+}
