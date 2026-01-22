@@ -1,9 +1,9 @@
-import './Button.css'
+import './Button.css';
 
 const Button = () => {
   return (
-    <div>
-        <button>Agregar al carrito</button>   
+    <div className="card button">
+        <button>Comprar</button>   
     </div>
   )
 }

@@ -1,11 +1,11 @@
 import {ImageStatus} from "../index";
 import "./Card.css";
 import Button from "../Button/Button";
-import "../Button/Button.css";
+
 
 function Card(props) {
     return (
-        <div className="cardContainer">
+        <div>
         <ImageStatus imageUrl={props.imageUrl}/>
         <h3>
           {props.texto}
@@ -13,10 +13,10 @@ function Card(props) {
         <p>
           {props.category}
         </p>
-        <h4>
+        <h4>$
           {props.price}
         </h4>
-        <Button></Button>
+       <Button/>
     </div>
     );
 }

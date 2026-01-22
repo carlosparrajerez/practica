@@ -22,16 +22,19 @@
 .footer-section h3 {
   margin-bottom: 15px;
   font-size: 1.2rem;
+  
 }
 
 .footer-section ul {
   list-style: none;
   padding: 0;
+  text-align:center;
 }
 
 .footer-section a {
-  color: #ccc;
+  color: white;
   text-decoration: none;
+  
 }
 
 .footer-section a:hover {
@@ -41,7 +44,12 @@
 
 .footer-section.copyright {
   text-align: center; /* Centra el texto de copyright */
-  width: 100%; /* Ocupa todo el ancho en el wrap */
+  width: 100%;
+   /* Ocupa todo el ancho en el wrap */
+}
+
+.footer-section.contact{
+  text-align:center;
 }
 
 /* Responsividad */

@@ -1,15 +1,17 @@
-Nombre proyecto: Ecommerce V1.0
+Nombre proyecto: Ecommerce Market V1.0.0
 
-Descripcion proyecto: Ecommerce dedicado a la venta de productos de belleza.
+Descripcion proyecto: Ecommerce dedicado a la venta de productos de supermercado.
 
 Componentes creados:
 - Banner
 - Navbar
-- Searchbar
+- SearchInput
 - Card
 - ImageStatus
 - Button
 - Footer
+- ProductList
+- ProductDetail
 
 Instrucciones para ejecutar el proyecto:
 1- Descargue el proyecto desde el repositorio de Github
@@ -22,4 +24,4 @@ Instrucciones para ejecutar el proyecto:
 
 Tecnologias usadas: ReactJS, Vite, CSS, HTML.
 
-Capturas pantalla resultado final (Vista general Ecommerce, ejemplo buscador funcionando):
+Capturas pantalla resultado final (Vista general Ecommerce, ejemplo de loading o busqueda funcionando):
