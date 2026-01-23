@@ -1,0 +1,23 @@
+a {
+    color: black;
+    text-align: center;
+    text-decoration:none;
+}
+
+a:hover {
+    color: none;
+}
+
+.container {
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 40px;
+}
+
+.loading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
