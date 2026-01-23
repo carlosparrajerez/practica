@@ -26,4 +26,5 @@ Tecnologias usadas: ReactJS, Vite, CSS, HTML.
 
 Capturas pantalla resultado final (Vista general Ecommerce, ejemplo de loading o busqueda funcionando):
 
+<img width="1920" height="992" alt="Image" src="https://github.com/user-attachments/assets/8b64a236-5146-4632-914f-496164f5bc49" />
 <img width="1920" height="992" alt="Image" src="https://github.com/user-attachments/assets/decadabe-6ef8-4fa5-bd57-f52059bbd931" />
